@@ -1,0 +1,99 @@
+
+.container {
+    background-image: linear-gradient(to right, rgb(34, 34, 34) , rgb(82, 81, 81));
+    max-height: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid yellow; */
+}
+
+
+/* LOGO */
+.logo {
+    flex-grow: 1;
+    margin: 5% 0 5% 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.fast {
+    color: rgb(192, 142, 48);
+}
+
+.tm {
+    font-size: .9rem;
+    margin: 4px;
+}
+
+
+/* LINKS */
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+
+.link {
+    margin: 5% 5% 5% 0;
+}
+
+.link {
+    transition: all 300ms ease-in-out;
+    opacity: 0.8;
+    bottom: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.link a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 2px;
+}
+
+.link:hover {
+    transform: scale(1.1);
+    border-bottom-color: orange;
+    opacity: 1;
+}
+
+
+/* PHONE NAV ICON */
+.nav-icon {
+    margin: 5%;
+    color:white;
+}
+
+
+
+/* INFOS */
+.infos {
+    flex-grow: 1;
+    margin: 5% 5% 5% 0;
+}
+
+.info {
+    display: flex;
+    color: white;
+    padding: 2%;
+    font-style: normal;
+}
+
+.info span {
+    margin-left: 5px;
+    opacity: 0.8;
+}
+
+
+
+
