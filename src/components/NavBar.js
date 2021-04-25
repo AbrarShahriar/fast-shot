@@ -1,14 +1,6 @@
 import React from 'react'
 import './NavBar.css'
 
-import hamburger from '../images/icons/hamburger.svg'
-import pancake from '../images/icons/pancake.svg'
-import sandwich from '../images/icons/sandwich.svg'
-import coffee from '../images/icons/coffee-cup.svg'
-import cake from '../images/icons/cake.svg'
-import bottle from '../images/icons/mineral-water.svg'
-import pizza from '../images/icons/pizza-slice.svg'
-
 import Cake from './icons/Cake'
 import CoffeeCup from './icons/CoffeeCup'
 import Hamburger from './icons/Hamburger'

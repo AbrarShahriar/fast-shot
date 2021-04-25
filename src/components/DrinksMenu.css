@@ -54,7 +54,11 @@
     object-fit: cover;
     width: 150px;
     height: 150px;
+    transition: transform 300ms ease;
     /* border: 2px solid red; */
+}
+.drink img:hover {
+    transform: scale(1.1);
 }
 
 .drink span {
@@ -83,7 +87,7 @@
 .drink div:active, .drink div:hover {
     background-color: rgb(240, 124, 16);
     color: white;
-    transform: scale(1.1);
+    transform: rotate(5deg) scale(1.1);
 }
 
 /* #add {

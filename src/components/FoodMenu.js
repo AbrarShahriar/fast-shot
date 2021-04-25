@@ -123,7 +123,7 @@ function FoodMenu() {
                 </div>
 
                 <div className="item">
-                    <img src={process.env.PUBLIC_URL + 'images/foods/dessert(1).png'} alt='bg' />
+                    <img src={process.env.PUBLIC_URL + 'images/foods/dessert(2).png'} alt='bg' />
 
                     <span>Dessert Two</span>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>

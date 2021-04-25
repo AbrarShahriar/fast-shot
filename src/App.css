@@ -10,7 +10,7 @@ html body {
 }
 
 body {
-  background: url('./images/subtle_patterns/prism.png');
+  background: url('images/subtle_patterns/prism.png');
   /* overflow-x: hidden; */
 }
 
@@ -29,7 +29,7 @@ body {
   /* outline: 2px solid red; */
   margin-top: -25px;
   height: 23px;
-  background: url('./images/carpet-offset-small.png') repeat !important;
+  background: url('images/carpet-offset-small.png') repeat !important;
   box-shadow: 0 1px 0 rgb(54, 54, 54) inset;
   position: relative;
   z-index: 1;

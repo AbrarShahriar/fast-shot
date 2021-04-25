@@ -52,7 +52,11 @@
 
 .item img {
     width: 250px;
+    transition: transform 300ms ease;
     /* border: 2px solid red; */
+}
+.item img:hover {
+    transform: scale(1.1);
 }
 
 .item span {
@@ -84,7 +88,7 @@
 .item div:active, .item div:hover {
     background-color: rgb(240, 124, 16);
     color: white;
-    transform: scale(1.1);
+    transform: rotate(5deg) scale(1.1);
 }
 
 
@@ -95,6 +99,10 @@
     /* border: 2px solid red; */
     margin-top: -40px;
     margin-bottom: -70px;
+    transition: transform 300ms ease;
+}
+#make-straight:hover {
+    transform: scale(1.1) rotate(90deg);
 }
 
 #decrease-gap {
